@@ -291,6 +291,7 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        display: none;
     }
     .nav__menu a{
         font-size: 1.6rem;
@@ -335,4 +336,33 @@ p{
 
 
     /* --------------- feature list section ------------  */
+    .feature-list__container {
+        padding: 3rem 1rem;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+    .feature-list__content {
+        max-width: 100%;
+        padding: 3rem 1rem 0 0;
+    }
+    .feature-list__content h2 {
+        font-size: 3.5rem;
+    }
+    .feature-list__image {
+        max-width: 100%;
+        padding: 1rem;
+        padding-left: 8rem;
+    }
+    .feature-list__tooltip {
+        padding: 1.5rem;
+        top: -6rem;
+    }
+    .feature-list__tooltip span {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .feature-list__tooltip p {
+        font-size: 1.6rem;
+    }
 }
