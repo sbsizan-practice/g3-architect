@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* --------- presets --------  */
+:root{
+    /* setup font as 10px */
+    font-size: 62.5%;
+    --bg-color: rgba(255, 143, 14, 0.10);
+    --white: #FFFFFF;
+    --dark-1: #131313;   
+    --dark-2: #424242;   
+    --dark-3: #727272;
+    --orange: #FF900E;   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+h1, h2, h3, h4, h5{
+    color: var(--dark-1);
+}
+p{
+    color: var(--dark-3);
+}
+.btn{
+    background: var(--orange);
+    border-radius: .8rem;
+    font-size: 2rem;
+    padding: 1rem 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------
+--------------------------- RESPONSIVE SECTION ----------------------------------------- */
+
