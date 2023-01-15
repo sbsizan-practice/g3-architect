@@ -456,6 +456,8 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
+        /* ------ I used display none only for looking attractive the mobile view --------  */
         display: none;
     }
     .nav__menu a{
