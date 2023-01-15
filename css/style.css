@@ -137,8 +137,8 @@ p{
     border-radius: .8rem;
     transition: .3s all ease-in-out;
 }
-.quick-feature__images img:hover{
-    box-shadow: .1rem .2rem .5rem .1rem var(--dark-2);
+.quick-feature__images img:hover {
+    box-shadow: .1rem .2rem 2rem .01rem #42424275;
 }
 
 .quick-feature__content {
@@ -197,7 +197,7 @@ p{
     padding: 2rem;
     background: var(--white);
     border-radius: .8rem;
-    box-shadow: .05rem .05rem 2rem -0.98rem var(--dark-3);
+    box-shadow: 0.05rem 0.05rem 2rem -0.98rem #72727242;
     margin-bottom: 2rem;
 }
 .feature-list__item h3{
@@ -285,7 +285,7 @@ p{
     transition: .3s all ease-in-out;
 }
 .facts__cards-item:hover {
-    box-shadow: .1rem .2rem .5rem 0.1rem var(--dark-2);
+    box-shadow: 0.1rem 0.2rem 1rem 0.1rem #4242425c;
 }
 .facts__cards-item img{
     margin-bottom: 1rem;
